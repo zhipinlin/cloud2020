@@ -19,8 +19,8 @@ public class PaymentService {
      * @param id
      * @return
      */
-    public String paymentInfo_OK(Integer id)
-    {
+    public String paymentInfo_OK(Integer id) {
+
         return "线程池:  "+Thread.currentThread().getName()+"  paymentInfo_OK,id:  "+id+"\t"+"O(∩_∩)O哈哈~";
     }
 
